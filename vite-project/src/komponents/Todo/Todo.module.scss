@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+.todoWrapper {
+    background-color: #EFD67F;
+    width: 50%;
+    height: 100vh;
+    h1 {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-weight: 300;
+        font-size: 5rem;
+        text-decoration: underline 2px;
+    }
+}
+
+.todoList {
+    margin-left: 15%;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: underline;
+
+}
+
+.todoText {
+    display: block;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    
+}
+
+.delTodo {
+    position: absolute;
+    left: 40%;
+    font-family: 'Inter', sans-serif;
+    background-color: #EFD67F;
+    border: none;
+}
+
+.addTodo {
+    position: absolute;
+    left: 40%;
+    top: 143%;
+    font-family: 'Inter', sans-serif;
+    background-color: #EFD67F;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.delAllTodos {
+    position: absolute;
+    display: block;
+    left: 25%;
+    transform: translateX(-50%);
+    top: 150%;
+    font-family: 'Inter', sans-serif;
+    background-color: #EFD67F;
+    border: 1px solid black;
+}
+
+.line {
+    position: absolute;
+    // display: block;
+    top: 76%;
+    margin-left: 35%;
+    width: 0.5px;
+    height: 70%;
+    background-color: black;
+}
+
+
+//ICONS
+span {
+    margin-left: -10px;
+    margin-right: 10px;
+}
